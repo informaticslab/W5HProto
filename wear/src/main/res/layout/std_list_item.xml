@@ -1,0 +1,19 @@
+<gov.cdc.w5h.WearableListItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <ImageView
+        android:id="@+id/list_item_image"
+        android:src="@drawable/ic_conditions"
+        android:layout_margin="16dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/list_item_title"
+        android:gravity="center_vertical|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:textSize="16sp"/>
+</gov.cdc.w5h.WearableListItemLayout>

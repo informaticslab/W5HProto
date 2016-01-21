@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="android_wear_capabilities" translatable="false">
+        <!-- declaring that phone has the capability to show std treatments -->
+        <item>"show_std_treatments"</item>
+    </string-array>
+</resources>

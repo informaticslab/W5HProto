@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.CardScrollView
+    android:id="@+id/containerFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_box="bottom"
+    android:background="@color/white"
+    android:scrollbars="none"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <android.support.wearable.view.CardFrame
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:background="@color/treatmentBackground">
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/treatmentBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/std_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Arial, Helvetica, sans-serif"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="5dp"
+                    android:textColor="#8f1636"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:text="Cervicitis"/>
+                <TextView
+                    android:id="@+id/regimen_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Arial, Helvetica, sans-serif"
+                    android:paddingTop="5dp"
+                    android:textColor="#8f1636"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:text="Recommended Regimens for Presumptive Treatment*"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:layout_height="1dp"
+                    android:background="#d2d8db"/>
+
+                <TextView
+                    android:id="@+id/treatment_details"
+                    android:fontFamily="Arial, Helvetica, sans-serif"
+                    android:textSize="12sp"
+                    android:textColor="#32394a"
+                    android:text="Azithromycin 1 g orally in a single dose\n\n\tOR\n\nDoxycycline 100 mg orally twice a day for 7 days"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:layout_height="1dp"
+                    android:background="#d2d8db"/>
+
+                <TextView
+                    android:id="@+id/treatment_smallprint"
+                    android:text="* Consider concurrent treatment for gonococcal infection if at risk of gonorrhea or lives in a community where the prevalence of gonorrhea is high."
+                    android:textSize="12sp"
+                    android:textColor="#32394a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </android.support.wearable.view.CardFrame>
+    </android.support.wearable.view.CardScrollView>

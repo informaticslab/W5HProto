@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IIU Test app for Android Wear</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="read_me_text">
+        This is a proof of concept app that packages an Android Wear app with it.
+        The Android Wear version of this app displays a condensed version of the STD Tx Guide
+        condition list with one treatment regimen built in (Cervicitis). Swiping right from the
+        Cervicitis treatment regimen reveals an \'Open on phone\' option. Clicking \'Open on phone\'
+        launches the handheld app directly to the Cervicitis condition details page. The other
+        conditions in the wearable app launch dummy sublists to emulate choosing a condition which
+        contains subconditions. At this time, no additional functionality is built into those
+        conditions. The button below also works to navigate the handheld app to the Cervicitis
+        condition details page.
+    </string>
+</resources>

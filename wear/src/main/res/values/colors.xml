@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="treatmentBackground">#e0e0e0</color>
+    <color name="unselectedImageColor">#8CBDF1</color>
+    <color name="selectedImageColor">#124F90</color>
+    <color name="unselectedTextColor">#828282</color>
+    <color name="selectedTextColor">#212121</color>
+</resources>
