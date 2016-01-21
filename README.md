@@ -1,4 +1,4 @@
-# W5HProto
+# IIU Test app for Android Wear
 An android wear prototype application to test the viability of viewing STD treatment regimens on an Android watch.
 
 ##Requirements
